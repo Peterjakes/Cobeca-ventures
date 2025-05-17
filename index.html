@@ -1,12 +1,709 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Construction Company</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cobeca Ventures Limited - Providing professional construction services, office cleaning, general supplies, and more with integrity and excellence.">
+    <title>Cobeca Ventures Limited</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Open Graph Tags for better social media sharing -->
+    <meta property="og:title" content="Cobeca Ventures Limited">
+    <meta property="og:description" content="Your Partner in Construction & Supplies - professional services with integrity and excellence">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cobecaventures.com">
 </head>
 <body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <span class="logo-text">COBECA<span class="accent">VENTURES</span></span>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services/building-works.html">Building Works</a></li>
+                            <li><a href="services/road-works.html">Road Works</a></li>
+                            <li><a href="services/water-works.html">Water Works</a></li>
+                            <li><a href="services/cleaning-services.html">Cleaning Services</a></li>
+                            <li><a href="services/general-supplies.html">General Supplies</a></li>
+                            <li><a href="services/general-construction.html">General Construction</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
 
+    <div class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Partner in <br>Construction & Supplies</h1>
+                <p>Cobeca Ventures Limited provides professional construction services, 
+                   office cleaning, general supplies, and more with integrity and excellence.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-columns">
+                <div class="about-column">
+                    <h2 class="section-title">Our Mission</h2>
+                    <div class="underline"></div>
+                    <p>To ensure the highest level of customer satisfaction through providing professional services; quality products, prompt deliveries and competitive fair market prices.</p>
+                    <p>We strive to be the only one-stop shop for the provision of Cleaning Services, Stationery Supplies with utmost efficiency and effectiveness all the time.</p>
+                </div>
+                <div class="about-column">
+                    <h2 class="section-title">Our Values</h2>
+                    <div class="underline"></div>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-circle-check"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Professionalism</h3>
+                                <p>Delivering services with expertise and care</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-circle-check"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Integrity</h3>
+                                <p>Honest and ethical in all our dealings</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-circle-check"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Commitment</h3>
+                                <p>Dedicated to exceeding expectations</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-circle-check"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Customer Value</h3>
+                                <p>Client satisfaction is our priority</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-circle-check"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Teamwork</h3>
+                                <p>Collaboration for optimal results</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-circle-check"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3>Satisfaction</h3>
+                                <p>Ensuring clients are delighted with our work</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title text-center">Our Services</h2>
+            <div class="underline center"></div>
+            <p class="section-description">Cobeca Ventures Limited offers a comprehensive range of construction, supplies, and service solutions to meet your business needs.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Commercial Building Construction">
+                    </div>
+                    <div class="service-content">
+                        <h3>Building Works</h3>
+                        <p>Professional building construction, alterations, partitioning, shop fitting, and general building services with a focus on quality and client satisfaction.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Commercial & Residential</li>
+                            <li><i class="fas fa-check"></i> Renovations & Alterations</li>
+                            <li><i class="fas fa-check"></i> Partitioning</li>
+                        </ul>
+                        <a href="services/building-works.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.pinimg.com/736x/f1/54/2b/f1542b651427c02bbf031658a2c3cc46.jpg" alt="Road Works">
+                    </div>
+                    <div class="service-content">
+                        <h3>Road Works</h3>
+                        <p>Specialized in highway construction, local roads, private drives, and bridge connections with a focus on durability and quality.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Highway Construction</li>
+                            <li><i class="fas fa-check"></i> Private Road Construction</li>
+                            <li><i class="fas fa-check"></i> Bridge Connections</li>
+                        </ul>
+                        <a href="services/road-works.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.pinimg.com/736x/f6/cc/d7/f6ccd784bc195a6953ebbaa4b7486c1d.jpg" alt="Water Works">
+                    </div>
+                    <div class="service-content">
+                        <h3>Water Works</h3>
+                        <p>Complete water supply solutions, plumbing installations, drainage systems, and water infrastructure projects for residential and commercial clients.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Water Supply Systems</li>
+                            <li><i class="fas fa-check"></i> Plumbing Services</li>
+                            <li><i class="fas fa-check"></i> Drainage Solutions</li>
+                        </ul>
+                        <a href="services/water-works.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Cleaning Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Cleaning Services</h3>
+                        <p>Professional cleaning services for commercial and residential properties, ensuring spotless and hygienic environments for your business or home.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Office Cleaning</li>
+                            <li><i class="fas fa-check"></i> Commercial Cleaning</li>
+                            <li><i class="fas fa-check"></i> Post-Construction Cleaning</li>
+                        </ul>
+                        <a href="services/cleaning-services.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.pinimg.com/736x/98/e9/bc/98e9bc4c429d2475f8f46f4b6bdbc029.jpg" alt="General Supplies">
+                    </div>
+                    <div class="service-content">
+                        <h3>General Supplies</h3>
+                        <p>Comprehensive range of office supplies, stationery, dry foods, detergents, and furniture to meet all your business supply needs.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Stationery Supplies</li>
+                            <li><i class="fas fa-check"></i> Office Furniture</li>
+                            <li><i class="fas fa-check"></i> General Merchandise</li>
+                        </ul>
+                        <a href="services/general-supplies.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://i.pinimg.com/736x/b2/a0/54/b2a054a7ea6ddc658d58fa7e1b46c273.jpg" alt="General Construction">
+                    </div>
+                    <div class="service-content">
+                        <h3>General Construction</h3>
+                        <p>Comprehensive construction services including project management, school construction, and various building infrastructure projects.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Project Management</li>
+                            <li><i class="fas fa-check"></i> School Construction</li>
+                            <li><i class="fas fa-check"></i> Infrastructure Development</li>
+                        </ul>
+                        <a href="services/general-construction.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title text-center text-white">Why Choose Cobeca Ventures?</h2>
+            <div class="underline center yellow"></div>
+            <p class="section-description text-white">We are committed to delivering excellence in every project, ensuring client satisfaction, and maintaining the highest standards of quality.</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Reliable Company</h3>
+                    <p>Trusted partner with a track record of successful project delivery and client satisfaction.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Quality Services</h3>
+                    <p>Excellence in every aspect of our work, from planning to execution and completion.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Pocket Friendly</h3>
+                    <p>Competitive pricing without compromising on quality, providing excellent value.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Qualified Personnel</h3>
+                    <p>Expert team with extensive experience and specialized skills in all service areas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title text-center">Our Projects</h2>
+            <div class="underline center"></div>
+            <p class="section-description">We take pride in our work. Browse through some of our successful projects that demonstrate our expertise and quality.</p>
+            
+            <div class="project-filter">
+                <button class="filter-btn" data-filter="all">All Projects</button>
+                <button class="filter-btn active" data-filter="building">Building</button>
+                <button class="filter-btn" data-filter="road-works">Road Works</button>
+                <button class="filter-btn" data-filter="water-works">Water Works</button>
+                <button class="filter-btn" data-filter="other">Other Projects</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-item" data-category="building">
+                    <div class="project-img">
+                        <img src="https://i.pinimg.com/736x/bd/42/7d/bd427dfdfe9fbc6996cd8f00545d2052.jpg" alt="Commercial Building Construction">
+                    </div>
+                    <div class="project-details">
+                        <h3>Commercial Building Construction</h3>
+                        <p>A complete commercial building project including foundation, structure, and finishing.</p>
+                        <div class="project-meta">
+                            <span class="project-category">Building Works</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="road-works">
+                    <div class="project-img">
+                        <img src="https://i.pinimg.com/736x/c9/1b/43/c91b4332eb65755b6b7541ddd4f740ab.jpg" alt="Highway Connection Project">
+                    </div>
+                    <div class="project-details">
+                        <h3>Highway Connection Project</h3>
+                        <p>Construction of a major highway connection with bridges and intersections.</p>
+                        <div class="project-meta">
+                            <span class="project-category">Road Works</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="water-works">
+                    <div class="project-img">
+                        <img src="https://i.pinimg.com/736x/6f/36/02/6f360284611ff40af052d6434def4272.jpg" alt="Water Supply Infrastructure">
+                    </div>
+                    <div class="project-details">
+                        <h3>Water Supply Infrastructure</h3>
+                        <p>Installation of water supply infrastructure for a community development.</p>
+                        <div class="project-meta">
+                            <span class="project-category">Water Works</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="building">
+                    <div class="project-img">
+                        <img src="https://i.pinimg.com/736x/47/aa/06/47aa0630dd8de6040a7e3fba577dbb2f.jpg" alt="School Construction">
+                    </div>
+                    <div class="project-details">
+                        <h3>School Construction</h3>
+                        <p>Complete school facility with classrooms, laboratories, and administrative buildings.</p>
+                        <div class="project-meta">
+                            <span class="project-category">Building Works</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="road-works">
+                    <div class="project-img">
+                        <img src="https://i.pinimg.com/736x/3d/c9/c3/3dc9c31e1703ac5a10a04f740203f6ec.jpg" alt="Bridge Connection">
+                    </div>
+                    <div class="project-details">
+                        <h3>Bridge Connection</h3>
+                        <p>Construction of a reinforced concrete bridge connecting two communities.</p>
+                        <div class="project-meta">
+                            <span class="project-category">Road Works</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="other">
+                    <div class="project-img">
+                        <img src="https://i.pinimg.com/736x/e7/a3/13/e7a313552d29a9c90ac6b19cac419ba2.jpg" alt="Laboratory Installation">
+                    </div>
+                    <div class="project-details">
+                        <h3>Laboratory Installation</h3>
+                        <p>Complete laboratory setup with equipment installation and plumbing work.</p>
+                        <div class="project-meta">
+                            <span class="project-category">Other Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Cobeca Ventures Section -->
+    <section class="about-company-section">
+        <div class="container">
+            <div class="about-company-content">
+                <div class="about-company-image">
+                    <img src="https://img.freepik.com/free-photo/african-business-male-people-shaking-hands_1303-18516.jpg?semt=ais_hybrid&w=740" alt="Cobeca Ventures Team">
+                </div>
+                <div class="about-company-info">
+                    <h2 class="section-title">About Cobeca Ventures</h2>
+                    <div class="underline"></div>
+                    <p>Cobeca Ventures Limited is a dynamic construction and supplies company offering a wide range of services including building works, road construction, water works, cleaning services, and general supplies.</p>
+                    <p>Founded with a commitment to excellence, we have grown to become a trusted partner for businesses and individuals seeking reliable construction services and quality supplies.</p>
+                    <p>Our team of professionals brings extensive experience and expertise to every project, ensuring high-quality results that meet and exceed client expectations.</p>
+                    
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">200+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Team Members</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">95%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title text-center">What Our Clients Say</h2>
+            <div class="underline center"></div>
+            <p class="section-description">Our clients' satisfaction is our greatest achievement. Here's what some of them have to say about working with us.</p>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Cobeca Ventures delivered our office building project on time and within budget. Their attention to detail and quality of work was exceptional. We highly recommend their services."</p>
+                    <div class="testimonial-author">
+                        <div class="author-initial">JM</div>
+                        <div class="author-info">
+                            <h4>John Maina</h4>
+                            <p>CEO, Nairobi Enterprises</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"We contracted Cobeca for our school construction project, and they exceeded our expectations. Their team was professional, responsive, and delivered excellent quality work."</p>
+                    <div class="testimonial-author">
+                        <div class="author-initial">SW</div>
+                        <div class="author-info">
+                            <h4>Sarah Wanjiku</h4>
+                            <p>School Director</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"We've been using Cobeca's cleaning services and office supplies for over two years. Their reliability, quality products, and competitive pricing make them our preferred vendor."</p>
+                    <div class="testimonial-author">
+                        <div class="author-initial">DO</div>
+                        <div class="author-info">
+                            <h4>David Omondi</h4>
+                            <p>Operations Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center text-white">Contact Us</h2>
+            <div class="underline center white"></div>
+            <p class="section-description text-white">Get in touch with us for your construction needs or inquiries. We're here to help you with any questions or requirements.</p>
+            
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <h3 class="form-title">Get In Touch</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container">
+                    <h3 class="info-title">Contact Information</h3>
+                    
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Address</h4>
+                            <p>394-20200 KERICHO, Kenya</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>+254 (0) XXX XXX XXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>info@cobecaventures.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Working Hours</h4>
+                            <div class="working-hours">
+                                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                                <p>Saturday: 9:00 AM - 1:00 PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Cobeca Ventures</h3>
+                    <p>Your trusted partner in construction, supplies, and service solutions for all your requirements.</p>
+                    <p>Reg. No: PVT-GYUXBZZ</p>
+                    <p>PIN: P051734900A</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Building Works</a></li>
+                        <li><a href="#services">Road Works</a></li>
+                        <li><a href="#services">Water Works</a></li>
+                        <li><a href="#services">Cleaning Services</a></li>
+                        <li><a href="#services">General Supplies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 394-20200 KERICHO, Kenya</li>
+                        <li><i class="fas fa-phone"></i> +254703690093</li>
+                        <li><i class="fas fa-envelope"></i>cobecaventureslimited@gmail.com</li>
+                    </ul>
+                    
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cobeca Ventures Limited. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    </div><!-- End of main-content -->
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- Direct Project Filter Script -->
+<script>
+  // Direct initialization for project filtering
+  document.addEventListener('DOMContentLoaded', function() {
+      // Get all elements
+      const buttons = document.querySelectorAll('.filter-btn');
+      const projects = document.querySelectorAll('.project-item');
+      
+      console.log("DIRECT FILTER: Found " + buttons.length + " filter buttons");
+      console.log("DIRECT FILTER: Found " + projects.length + " project items");
+      
+      // Log all buttons data
+      buttons.forEach(btn => {
+          console.log("Button: " + btn.textContent + " - Filter: " + btn.getAttribute('data-filter'));
+      });
+      
+      // Log all projects data
+      projects.forEach(project => {
+          console.log("Project: " + project.querySelector('h3').textContent + " - Category: " + project.getAttribute('data-category'));
+      });
+      
+      // Add click events
+      buttons.forEach(button => {
+          button.addEventListener('click', function() {
+              const category = this.getAttribute('data-filter');
+              console.log("FILTER CLICKED: " + category);
+              
+              // Update active state
+              buttons.forEach(b => b.classList.remove('active'));
+              this.classList.add('active');
+              
+              // Show/hide projects
+              projects.forEach(project => {
+                  if (category === 'all' || project.getAttribute('data-category') === category) {
+                      project.style.display = 'block';
+                  } else {
+                      project.style.display = 'none';
+                  }
+              });
+          });
+      });
+      
+      // Initial filter - "building" is active by default
+      projects.forEach(project => {
+          if (project.getAttribute('data-category') === 'all') {
+              project.style.display = 'block';
+          } else {
+              project.style.display = 'none';
+          }
+      });
+  });
+</script>
 </body>
 </html>

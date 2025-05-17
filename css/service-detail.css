@@ -1,0 +1,296 @@
+/* Service Detail Page Styles */
+
+/* Service Hero Section */
+.service-hero {
+    height: 350px;
+    position: relative;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+
+.service-hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(24, 67, 90, 0.85), rgba(24, 67, 90, 0.85));
+}
+
+.service-hero .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.service-hero h1 {
+    font-size: 2.5rem;
+    color: var(--white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.service-hero p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Service-specific hero backgrounds */
+.building-works-hero {
+    background-image: url('https://images.unsplash.com/photo-1541976590-713941681591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80');
+}
+
+.road-works-hero {
+    background-image: url('https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80');
+}
+
+.water-works-hero {
+    background-image: url('https://i.pinimg.com/736x/b5/4f/06/b54f0679d1f2795cbbacef1ba2b1ce86.jpg');
+}
+
+.cleaning-services-hero {
+    background-image: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80');
+}
+
+.general-supplies-hero {
+    background-image: url('https://i.pinimg.com/736x/30/6c/92/306c927704af5cdcbc302a90f89dc1e6.jpg');
+}
+
+.general-construction-hero {
+    background-image: url('https://images.unsplash.com/photo-1503708928676-1cb796a0891e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80');
+}
+
+/* Back Link */
+.back-link {
+    margin: var(--spacing-md) auto;
+}
+
+.back-link a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: color var(--transition-fast);
+}
+
+.back-link a i {
+    margin-right: var(--spacing-xs);
+}
+
+.back-link a:hover {
+    color: var(--accent-color);
+}
+
+/* Service Detail Section */
+.service-detail {
+    padding: var(--spacing-lg) 0 var(--spacing-xxl);
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+    align-items: center;
+}
+
+.service-image {
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    height: 400px;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.service-info h2 {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.service-info p {
+    margin-bottom: var(--spacing-md);
+}
+
+.service-info h3 {
+    font-size: 1.3rem;
+    margin: var(--spacing-lg) 0 var(--spacing-md);
+}
+
+.approach-items {
+    margin-bottom: var(--spacing-lg);
+}
+
+.approach-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+}
+
+.approach-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(18, 65, 92, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: var(--spacing-md);
+    color: var(--accent-color);
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.approach-content h4 {
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.approach-content p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+.cta-btn {
+    margin-top: var(--spacing-lg);
+}
+
+/* Process Section */
+.process-section {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--light-gray);
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.process-card {
+    background-color: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.process-number {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--spacing-md);
+}
+
+.process-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.process-card p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+/* Related Projects Section */
+.related-projects {
+    padding: var(--spacing-xxl) 0;
+}
+
+.related-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.project-card {
+    background-color: var(--white);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+}
+
+.project-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project-info {
+    padding: var(--spacing-md);
+}
+
+.project-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.project-info p {
+    font-size: 0.95rem;
+    margin-bottom: var(--spacing-md);
+}
+
+/* CTA Section */
+.cta-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.cta-section h2 {
+    color: var(--white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta-section p {
+    color: var(--white);
+    max-width: 800px;
+    margin: 0 auto var(--spacing-lg);
+    opacity: 0.9;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .process-grid, 
+    .related-projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .service-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .service-image {
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .related-projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
